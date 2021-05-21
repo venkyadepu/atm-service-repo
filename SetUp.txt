@@ -1,0 +1,5 @@
+1) Go the atm-service folder and build the application by command " mvn clean install"
+
+2) Run the application , and the command is "mvn spring-boot:run"
+
+3) Import the postman collection into your postman and hit the API's 

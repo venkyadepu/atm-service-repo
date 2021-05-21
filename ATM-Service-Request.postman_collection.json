@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "75723ebe-6561-48b8-9b9b-a54438744b96",
+		"name": "ATM-Service-Request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "FindAtmByCity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/findAtmsByCity/{city}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"findAtmsByCity",
+						"{city}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All ATMS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/allAtms",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"allAtms"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
